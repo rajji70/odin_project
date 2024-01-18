@@ -1,34 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing-page</title>
     <link rel="stylesheet" href="/Landing-page/page.css">
     <style>
-        .navbar{
+        .navbar {
             background-color: #1a212a;
             display: flex;
             justify-content: space-between;
+            padding-left: 12%;
+            padding-right: 12%;
         }
-        .nav-content{
+
+        .nav-content {
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
+
         .nav-content a {
             display: flex;
-
+            justify-content: space-between;
             color: aliceblue;
+            padding: 5%;
+        }
+
+        .logo img {
+            height: 35px;
+            width: 40px;
+            padding: 5px;
+        }
+
+        .header {
+            background-color: #1a212a;
+            height: 400px;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            padding: 20%;
             align-items: center;
+        }
+        button{
+            background-color: #3a69bc;
+            color: white
+        }
+        p{
+            color: white
         }
     </style>
 </head>
+
 <body>
     <div>
         <div class="navbar">
             <div class="logo">
-                <img src="https://imgs.search.brave.com/g6YpTlfUI7vTbcEE8KFdWK0CEjIPe1pipEw-ARdhM2A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMx/NjU5MDQxMS92ZWN0/b3IvbS1sb2dvLWRl/c2lnbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9OFI5YWcy/TVNQZ2dGY2NBQ3JP/cU8zOVB1ZlVOMy1q/bkg4QVJUZ2ZaNlY5/Zz0" 
-                alt="">
+                <img src="https://imgs.search.brave.com/g6YpTlfUI7vTbcEE8KFdWK0CEjIPe1pipEw-ARdhM2A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMx/NjU5MDQxMS92ZWN0/b3IvbS1sb2dvLWRl/c2lnbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9OFI5YWcy/TVNQZ2dGY2NBQ3JP/cU8zOVB1ZlVOMy1q/bkg4QVJUZ2ZaNlY5/Zz0"
+                    alt="">
             </div>
             <div class="nav-content">
                 <div>
@@ -42,7 +75,25 @@
                 </div>
             </div>
         </div>
-        <div class="header"></div>
+        <div class="header">
+            <div class="text">
+                <h1 style="color:wheat;">This is a headding</h1>
+                <p>
+                    Enumerating objects: 6, done.
+                    Counting objects: 100% (6/6), done.
+                    Delta compression using up to 2 threads
+                    Compressing objects: 100% (4/4), done.
+                    Writing objects: 100% (4/4), 1.05 KiB | 1.05 MiB/s, done.
+                    Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+                    To github.com:rajji70/odin_project.git
+                    9cb6ab6..7667197 main -> main
+                </p>
+                <button>Sign Up</button>
+            </div>
+            <div class="image">
+
+            </div>
+        </div>
         <div class="body"></div>
         <div class="footer">
             <div class="signup"></div>
@@ -50,4 +101,5 @@
         </div>
     </div>
 </body>
+
 </html>
