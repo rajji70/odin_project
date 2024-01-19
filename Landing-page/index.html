@@ -7,6 +7,12 @@
     <title>Landing-page</title>
     <link rel="stylesheet" href="/Landing-page/page.css">
     <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            gap: 200px;
+            align-items: center;
+        }
         .navbar {
             background-color: #1a212a;
             display: flex;
@@ -31,29 +37,23 @@
         .logo img {
             height: 35px;
             width: 40px;
-            padding: 5px;
-        }
 
-        .header {
-            background-color: #1a212a;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            padding-left: 12%;
-            padding-right: 12%;
         }
-        .header img {
-            height: 200px;
-        }
-
         .text {
             display: flex;
             flex-direction: column;
+            flex: 1;
+            align-items: center;
+        }
+        .text div {
+            padding: 50px;
         }
 
         button {
             background-color: #3a69bc;
-            color: white
+            color: white;
+            width: 80px;
+            border-radius: 6px;
         }
 
         p {
@@ -101,7 +101,27 @@
                     alt="">
             </div>
         </div>
-        <div class="body"></div>
+        <div class="body">
+            <h1>Some random information.</h1>
+            <div class="box">
+                <div>
+                    <div class="inner-box"></div>
+                    <div class="box-text"></div>
+                </div>
+                <div>
+                    <div class="inner-box"></div>
+                    <div class="box-text"></div>
+                </div>
+                <div>
+                    <div class="inner-box"></div>
+                    <div class="box-text"></div>
+                </div>
+                <div>
+                    <div class="inner-box"></div>
+                    <div class="box-text"></div>
+                </div>
+            </div>
+        </div>
         <div class="footer">
             <div class="signup"></div>
             <div class="copyright"></div>
